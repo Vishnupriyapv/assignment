@@ -1,0 +1,41 @@
+body{ 
+    width:60%;
+    margin:auto;
+    text-align:centre;
+    background-color:white;
+    font-size:14px;
+}
+h1,h2{
+    text-align:centre;
+}
+
+  
+#mainimage{
+width:50%;
+height:50%;
+float:center;
+margin:auto;
+
+}
+
+
+
+
+#mainmenu{
+text-align:auto;
+background-color:black;
+margin-top:0px;
+color:white;
+padding:15px;
+font-size:14px;
+}
+
+
+
+
+
+
+h3{
+text-align:left;
+font-size:14px;
+}
