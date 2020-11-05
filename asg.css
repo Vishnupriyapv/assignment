@@ -17,10 +17,10 @@ font-size:14px;
 
 
 #mainimage{
-width:50%;
+width:60%;
 height:50%;
 float:center;
-margin:border;
+border:3px solid black
 
 }
 
