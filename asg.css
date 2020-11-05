@@ -5,9 +5,16 @@ body{
     font-size:14px;
 }
 
-h1,h2,h3{
+h1,h2{
     text-align:center;
 }
+
+h3{
+text-align:left;
+font-size:14px;
+}
+
+
 
 #mainimage{
 width:50%;
