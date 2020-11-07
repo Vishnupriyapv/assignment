@@ -6,7 +6,7 @@
 </head>
 <h1>Registation Form</h1>
 <form>
-<input type="text" placeholder="Your name" /><br></br>
+<input type="text" placeholder="Your name" required/><br></br>
 <textarea rows="5" cols="25" placeholder="Address"></textarea><br></br>
 
 Gender:
@@ -16,33 +16,27 @@ Others:<input type="radio" value="others" name="gender" /><br></br>
 
 Date of birth:<input type="date" /><br></br>
 
-Completed courses:
-Happiness program:<input type="checkbox" value="male" name="gender" checked />
-YLTP:<input type="checkbox" value="female" name="gender" />
-Others:<input type="checkbox" value="others" name="gender" /><br></br>
-Programms:
+Languages known:
+Malayalam:<input type="checkbox" value="male" name="gender" checked />
+English:<input type="checkbox" value="female" name="gender" checked />
+Hindi:<input type="checkbox" value="others" name="gender" checked /><br></br>
+University:
 <select>
-<option>Physics</option>
-<option>Chemistry</option>
-<option>Maths</option>
-<option>Statistics</option>
-<option>Computer science</option>
+<option>Kannur University</option>
+<option>University of Calicut</option>
+<option>MG University</option>
+<option>Kerala University</option>
+<option></option>
 </select><br></br>
 
-State:
-<input type=text list="state" />
-<datalist id="state">
-<option value="karnataka" />
-<option value="lumbini" />
-<option value="Tohuko" />
-<option value="chubu" />
-<option value="Sabaj" />
-<option value="Johor" />
-<option value="Barisal" />
-<option value="Dhaka" />
-<option value="khulna" />
-<option value="minsk" />
-<option value="hrodna" />
+Programs:
+<input type=text list="programs" />
+<datalist id="programs">
+<option value="Computer science" />
+<option value="Physics" />
+<option value="Chemistry" />
+<option value="Mathematics" />
+<option value="Statistics" />
 <option value="others" />
 </datalist><br></br>
 
